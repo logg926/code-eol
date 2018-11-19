@@ -66,6 +66,8 @@ function getDecTxt (match) {
       return '↵'
     case '\r':
       return '←'
+    case '\x10':
+      return '↕'
     default:
       return ''
   }
